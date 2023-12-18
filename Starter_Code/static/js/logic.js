@@ -110,6 +110,7 @@ function createLegend() {
     d3.json(url).then(function (data) {
       // Create earthquake markers:
       let legendQuake = createLegend(); 
+      
       // Add the legend to the map
       legendQuake.addTo(myMap);
     });
